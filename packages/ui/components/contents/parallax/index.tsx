@@ -16,95 +16,104 @@ export default function ParallaxEffect() {
     >
       <ParallaxLayer
         offset={0}
+        factor={1.5}
         speed={0.4}
         style={{
           backgroundImage: "url(/images/background.png)",
           backgroundRepeat: "repeat-x",
           backgroundSize: "auto 1038px",
-          backgroundPosition: "bottom center",
+          backgroundPosition: "top center",
         }}
       ></ParallaxLayer>
       <ParallaxLayer
         offset={0}
+        factor={1.5}
         speed={0.3}
         style={{
           backgroundImage: "url(/images/mountains.png)",
           backgroundRepeat: "repeat-x",
           backgroundSize: "auto 1038px",
-          backgroundPosition: "bottom center",
+          backgroundPosition: "top center",
         }}
       ></ParallaxLayer>
       <ParallaxLayer
         offset={0}
+        factor={1.5}
         speed={0.35}
         style={{
           backgroundImage: "url(/images/logo_land.png)",
           backgroundRepeat: "repeat-x",
           backgroundSize: "auto 1038px",
-          backgroundPosition: "bottom center",
+          backgroundPosition: "top center",
         }}
       ></ParallaxLayer>
       <ParallaxLayer
+        factor={1.5}
         offset={0}
         speed={0.25}
         style={{
           backgroundImage: "url(/images/jungle1.png)",
           backgroundRepeat: "repeat-x",
           backgroundSize: "auto 1038px",
-          backgroundPosition: "bottom center",
+          backgroundPosition: "top center",
         }}
       ></ParallaxLayer>
       <ParallaxLayer
         offset={0}
+        factor={1.5}
         speed={0.55}
         style={{
           backgroundImage: "url(/images/jungle2.png)",
           backgroundRepeat: "repeat-x",
           backgroundSize: "auto 1038px",
-          backgroundPosition: "bottom center",
+          backgroundPosition: "top center",
         }}
       ></ParallaxLayer>
       <ParallaxLayer
         offset={0}
+        factor={1.5}
         speed={0.4}
         style={{
           backgroundImage: "url(/images/jungle3.png)",
           backgroundRepeat: "repeat-x",
           backgroundSize: "auto 1038px",
-          backgroundPosition: "bottom center",
+          backgroundPosition: "top center",
         }}
       ></ParallaxLayer>
       <ParallaxLayer
         offset={0}
+        factor={1.5}
         speed={0.3}
         style={{
           backgroundImage: "url(/images/jungle4.png)",
           backgroundRepeat: "repeat-x",
           backgroundSize: "auto 1038px",
-          backgroundPosition: "bottom center",
+          backgroundPosition: "top center",
         }}
       ></ParallaxLayer>
       <ParallaxLayer
         offset={0}
-        speed={0.25}
+        factor={1.5}
+        speed={-0.25}
         style={{
           backgroundImage: "url(/images/man_on_mountain.png)",
           backgroundRepeat: "repeat-x",
           backgroundSize: "auto 1038px",
-          backgroundPosition: "bottom center",
+          backgroundPosition: "top center",
         }}
       ></ParallaxLayer>
       <ParallaxLayer
         offset={0}
-        speed={0.2}
+        factor={1.5}
+        speed={0.25}
         style={{
           backgroundImage: "url(/images/jungle5.png)",
           backgroundRepeat: "repeat-x",
           backgroundSize: "auto 1038px",
-          backgroundPosition: "bottom center",
+          backgroundPosition: "left 100px center",
         }}
       ></ParallaxLayer>
-      <ParallaxLayer offset={1}>
+      <ParallaxLayer offset={1} factor={2}>
         <VStack
           justifyContent={"center"}
           alignItems={"center"}
